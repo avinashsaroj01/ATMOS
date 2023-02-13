@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin-style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="row">
+        <div class="column1">
+            <div class="column-text" onclick="show_column8()"><h3>Home</h3></div>
+            <div class="column-text" onclick="show_column2()"><h3>Users</h3></div>
+            <div class="column-text" onclick="show_column3()"><h3>Teams</h3></div>
+            <div class="column-text" onclick="show_column4()"><h3>Companies</h3></div>
+            <div class="column-text" onclick="show_column5()"><h3>Payments</h3></div>
+            <div class="column-text" onclick="show_column6()"><h3>Projects</h3></div>
+            <div class="column-text" onclick="show_column7()"><h3>Reports</h3></div>
+        </div>
+        <div class="column2">
+            <h1>Column 2</h1>
+            <h2>This Data will be fetched from Database. For Now Sample Data</h2>
+            <div>
+                <input type="text"> 
+                <button>Search</button>
+                <table id="customers">
+                    <tr>
+                        <th>S.no.</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>No. Of Teams</th>
+                        <th>No. of successful Projects</th>
+                        <th>Joined In</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Name 1</td>
+                        <td>name@gmail.com</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>20 Jan 2020</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="column3">
+            <h1>Column 3</h1>
+        </div>
+        <div class="column4">
+            <h1>Column 4</h1>
+        </div>
+        <div class="column5">
+            <h1>Column 5</h1>
+        </div>
+        <div class="column6">
+            <h1>Column 6</h1>
+        </div>
+        <div class="column7">
+            <h1>Column 7</h1>
+        </div>
+        <div class="column8">
+            <h1>Column 1</h1>
+            <h2>This is the Dashboard</h2>
+            <div class="block">No. Of Users</div>
+            <div class="block">No. Of Users</div>
+            <div class="block">No. Of Users</div>
+            <div class="big-block">No. Of Users</div>
+            <div class="big-block">No. Of Users</div>
+            <div class="big-block">No. Of Users</div>
+            <div class="big-block">No. Of Users</div>
+        </div>
+    </div>
+    <script>
+        function show_column2(){
+            document.getElementsByClassName("column2")[0].style.display = "block";
+            document.getElementsByClassName("column3")[0].style.display = "none";
+            document.getElementsByClassName("column4")[0].style.display = "none";
+            document.getElementsByClassName("column5")[0].style.display = "none";
+            document.getElementsByClassName("column6")[0].style.display = "none";
+            document.getElementsByClassName("column7")[0].style.display = "none";
+            document.getElementsByClassName("column8")[0].style.display = "none";
+
+        }
+        function show_column3(){
+            document.getElementsByClassName("column3")[0].style.display = "block";
+            document.getElementsByClassName("column2")[0].style.display = "none";
+            document.getElementsByClassName("column4")[0].style.display = "none";
+            document.getElementsByClassName("column5")[0].style.display = "none";
+            document.getElementsByClassName("column6")[0].style.display = "none";
+            document.getElementsByClassName("column7")[0].style.display = "none";
+            document.getElementsByClassName("column8")[0].style.display = "none";
+        }
+        function show_column4(){
+            document.getElementsByClassName("column4")[0].style.display = "block";
+            document.getElementsByClassName("column2")[0].style.display = "none";
+            document.getElementsByClassName("column3")[0].style.display = "none";
+            document.getElementsByClassName("column5")[0].style.display = "none";
+            document.getElementsByClassName("column6")[0].style.display = "none";
+            document.getElementsByClassName("column7")[0].style.display = "none";
+            document.getElementsByClassName("column8")[0].style.display = "none";
+        }
+        function show_column5(){
+            document.getElementsByClassName("column5")[0].style.display = "block";
+            document.getElementsByClassName("column4")[0].style.display = "none";
+            document.getElementsByClassName("column2")[0].style.display = "none";
+            document.getElementsByClassName("column3")[0].style.display = "none";
+            document.getElementsByClassName("column6")[0].style.display = "none";
+            document.getElementsByClassName("column7")[0].style.display = "none";
+            document.getElementsByClassName("column8")[0].style.display = "none";
+        }
+        function show_column6(){
+            document.getElementsByClassName("column6")[0].style.display = "block";
+            document.getElementsByClassName("column5")[0].style.display = "none";
+            document.getElementsByClassName("column4")[0].style.display = "none";
+            document.getElementsByClassName("column2")[0].style.display = "none";
+            document.getElementsByClassName("column3")[0].style.display = "none";
+            document.getElementsByClassName("column7")[0].style.display = "none";
+            document.getElementsByClassName("column8")[0].style.display = "none";
+        }
+        function show_column7(){
+            document.getElementsByClassName("column7")[0].style.display = "block";
+            document.getElementsByClassName("column6")[0].style.display = "none";
+            document.getElementsByClassName("column5")[0].style.display = "none";
+            document.getElementsByClassName("column4")[0].style.display = "none";
+            document.getElementsByClassName("column2")[0].style.display = "none";
+            document.getElementsByClassName("column3")[0].style.display = "none";
+            document.getElementsByClassName("column8")[0].style.display = "none";
+        }
+        function show_column8(){
+            document.getElementsByClassName("column8")[0].style.display = "block";
+            document.getElementsByClassName("column6")[0].style.display = "none";
+            document.getElementsByClassName("column5")[0].style.display = "none";
+            document.getElementsByClassName("column4")[0].style.display = "none";
+            document.getElementsByClassName("column2")[0].style.display = "none";
+            document.getElementsByClassName("column3")[0].style.display = "none";
+            document.getElementsByClassName("column7")[0].style.display = "none";
+        }
+    </script>
+</body>
+</html>

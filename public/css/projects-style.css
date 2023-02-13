@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.heading h1 {
+    text-align: center;
+}
+/* .nav-bar{
+    display: flex;
+} */
+.nav-bar-elements{
+    display: inline-block;
+    margin-left: 60px;
+}
+.profile{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    margin-right: 20px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.profile:hover{
+    /* display: inline-block; */
+    float: right;
+    margin-right: 20px;
+
+}
+.nav-bar-elements-list{
+    list-style-type: none;
+}
+.nav-bar-elements-list li{
+    display: inline-block;
+    /* border-bottom: solid; */
+    margin-right: 20px;
+}
+.nav-bar-elements-list li:hover{
+    cursor:pointer;
+    display: inline-block;
+    border-bottom: solid;
+    margin-right: 20px;
+}
+/* .nav-bar-elements-list li:active{
+    display: inline-block;
+    border-bottom: solid;
+    margin-right: 20px;
+} */
+
+
+.project-main-display{
+    padding: 50px;
+    display: flex;
+}
+
+
+.project-outer-btn{
+    background-color: white;
+    border: 0px;
+    padding-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.project-outer-btn:hover{
+    background-color: whitesmoke;
+    border: 0.1px solid #888888;
+    border-radius: 8px;
+    
+
+}
+.project-div{
+    padding: 10px;
+
+
+}
+.project-icon-functions-div{
+    display: flex;
+    
+}
+.outer-div{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px; 
+    text-align: center;
+    justify-content: center;
+
+    width: 80px;
+    height: 80px;
+
+    margin-bottom: 10px;
+}
+.project-function-0{
+    width: fit-content;
+    height: fit-content;
+    display: none;
+
+}
+.project-function-0-hovered{
+    display: inline-block;
+
+}
+.project-favorite-icon{
+    width: 15px;
+    height: 15px;
+
+}
+.project-icon-div{
+    margin: 5px;
+
+}
+.project-icon{
+
+}
+.project-function-1{
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: -5px;
+
+    display: none;
+    
+}
+.project-function-1-hovered{
+    display: inline-block;
+    
+}
+.project-function-1 h2{
+    /* text-align:center;
+    vertical-align: super; */
+    
+}
+.project-name-div{
+    text-align: center;
+}
+
+
+
+/* The Modal (background) */
+.project-modal-div {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    text-align: center;
+  }
+  
+/* Modal Content */
+.project-modal-content-div {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 50px;
+    /* border: 1px solid #888; */
+    width: fit-content;
+    height: fit-content;
+
+    border-style: solid;
+    border-radius: 8px;
+    border-color: rgb(131, 129, 129);
+    box-shadow: 2px 2px 10px 10px rgb(131, 129, 129);
+}
+
+/* The Close Button */
+.close-modal {
+    font-weight: bold;
+}
+
+.close-modal:hover,
+.close-modal:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.project-modal-heading{
+    display: block;
+}
+.project-modal-heading-h3{
+    margin-bottom: 10px;
+    font-size: 40px;
+
+}
+.project-modal-para-p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+

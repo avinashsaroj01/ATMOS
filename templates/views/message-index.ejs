@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/message-style.css">
+    <title>Document</title>
+</head>
+        <%- include("dashboard-inner-header") %>
+    <div class="row">
+        <div class="column1">
+            <div class="column-text" onclick="show_column2()"><h3>Project 1</h3></div>
+            <div class="column-text" onclick="show_column2()"><h3>Project 2</h3></div>
+            <div class="column-text" onclick="show_column2()"><h3>Project 3</h3></div>
+            <div class="column-text" onclick="show_column2()"><h3>Project 4</h3></div>
+            <div class="column-text" onclick="show_column2()"><h3>Project 5</h3></div>
+            <div class="column-text" onclick="show_column2()"><h3>Project 6</h3></div>
+            <div class="column-text" onclick="show_column2()"><h3>Project 7</h3></div>
+        </div>
+        <div class="column2">
+            <div class="column-text" onclick="show_column3()"><h3>name 1</h3></div>
+            <div class="column-text" onclick="show_column3()"><h3>name 2</h3></div>
+            <div class="column-text" onclick="show_column3()"><h3>name 3</h3></div>
+            <div class="column-text" onclick="show_column3()"><h3>name 4</h3></div>
+            <div class="column-text" onclick="show_column3()"><h3>name 5</h3></div>
+            <div class="column-text" onclick="show_column3()"><h3>name 6</h3></div>
+            <div class="column-text" onclick="show_column3()"><h3>name 7</h3></div>
+        </div>
+        <div class="column3">
+            <h1>Previous messages from database</h1>
+            <input type="text" name="Enter The Message Here" placeholder="Enter The Message Here">
+            <button>
+                Send
+            </button>
+        </div>
+        <div class="column4">
+            <h1>Messages Will be Displayed Here!.</h1>
+        </div>
+        
+    </div>
+    <script>
+        function show_column2(){
+            document.getElementsByClassName("column2")[0].style.display = "block";
+        }
+        function show_column3(){
+            document.getElementsByClassName("column3")[0].style.display = "block";
+        }
+    </script>
+</body>
+</html>

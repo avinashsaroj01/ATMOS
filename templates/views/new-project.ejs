@@ -1,0 +1,24 @@
+<a href = "/task">
+    <button id = "project-btn-<%=projectNumber%>" class = "project-outer-btn" onmouseover="changeDisplay(<%=projectNumber%>)">
+    
+        <div class = "project-div">
+            <div class = "project-icon-functions-div">
+                <div class = "outer-div" style = "background-color:<%= projectbackgroundcolor %> ">
+                    <div id="project-favorite-<%=projectNumber%>" class = "project-function-0">
+                        <img class="project-favorite-icon" src="https://img.icons8.com/windows/32/000000/star--v1.png"/>
+                    </div>
+                    <div class = "project-icon-div">
+                        <img class = "project-icon" src= <%= projectbackgroundimage %> >                        
+                    </div>
+                    <div id="project-options-<%=projectNumber%>" class = "project-function-1">
+                            <h2><sup>...</sup></h2>
+                    </div>
+                </div>
+            </div>
+            <div class = "project-name-div">
+                <h4> <%= projectname %></h4>
+            </div>
+        </div>
+   
+    </button>
+</a> 

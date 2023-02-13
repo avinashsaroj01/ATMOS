@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15"
+  },
+  "name": "atmos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js -e js,hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/home-style.css">
+    <title>ATMOS</title>
+</head>
+<body>
+    <div class = "homepage">
+        <%- include("dashboard-inner-header") %>
+        <div class = "main-display">
+            <div class = "greetings">
+                <h4>
+                    <span class = "greetings-day"></span>,
+                    <span class = "greetings-month"></span>
+                    <span class = "greetings-date"></span>
+                </h4>
+                <h1>
+                    <span class = "greetings-phrase"></span>,
+                    <span class = "profile-name"> <%= user_name %> </span>
+                </h1>
+            </div>
+            <div class = "quick-access-containers">
+                <div class = "task">
+                    <div class = "window-title">
+                        <h2>My Task</h2>
+                    </div>
+                    <div class = "window-nav-bar-div">
+                        <ul class = "window-nav-bar">
+                            <li>UpComing</li>
+                            <li>OverDue</li>
+                            <li>Completed</li>
+                        </ul>
+                    </div>
+                    <div class = "window-list">
+
+                    </div>
+                </div>
+                <div class = "projects">
+                    <div class = "window-title">
+                        <h2>My Projects</h2>
+                    </div>
+                    <div class = "window-nav-bar-div">
+                        <ul class = "window-nav-bar">
+                            <li>Recents</li>
+                            <li>Favorites</li>
+                        </ul>
+                    </div>
+                    <div class = "window-list">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "js/home-main.js"></script>
+</body>
+</html>

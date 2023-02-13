@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/projects-style.css">
+    
+    <title>Projects</title>
+</head>
+<body>
+    
+    <%- include("dashboard-inner-header") %>
+    <div class = "project-main-display">
+        <%- include("add-new-project-btn") %>
+
+                
+        <% for(let i =0; i<projectListEJS.length; i++){ %>
+            <%- include("new-project", {
+                                    projectNumber: i,
+                                    projectbackgroundcolor: projectListEJS[i].backGroundColor,
+                                    projectbackgroundimage: projectListEJS[i].backgroundImage,
+                                    projectname: projectListEJS[i].projectName
+            }) %>
+
+        <% } %>
+    </div>
+       
+    <div>
+        <div class = "project-modal-div">
+            <div class = "project-modal-content-div">
+                <div class = "project-modal-heading">
+                    <h3 class = "project-modal-heading-h3">Create a New Project</h3>
+                    <p class = "project-modal-para-p">Let's Start with a Name!</p>
+                </div>
+                <div class = "project-name-input-div">
+                    <input class = "project-name-input" type = "text" name = "project-name" placeholder = "Enter the Project Name...">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src = "js/projects-main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</body>
+</html>
