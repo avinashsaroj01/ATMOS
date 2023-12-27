@@ -1,0 +1,163 @@
+.upcomingTaskList {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+ .particularTaskName {
+    margin: 0px;
+    margin: 5px 10px 0px 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(206, 201, 201, 0.7);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0.8;
+    font-size: 14px;
+    display: flex;
+
+
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.particularTaskName:hover {
+    border-bottom: 1px solid rgba(206, 201, 201, 0.9);
+    background-color: #F9F9F9;
+}
+
+.taskName {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0.8;
+    font-size: 14px;
+    width: 75%;
+
+    color: #05386b;
+}
+
+.taskTime {
+    font-family: 'Hind Siliguri', sans-serif;
+width: 25%;
+
+color: #05386b;
+} */
+
+.particularTask {
+    display: flex;
+    /* flex-direction: row; */
+    border-radius: 4px;
+    margin: 5px 10px 0px 10px;
+    /* padding: 10px; */
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.particularTask a {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.projectDiv {
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    /* justify-content: center; */
+    /* margin: 5px 10px 0px 10px; */
+    /* padding: 10px; */
+    /* border-bottom: 1px solid rgba(206, 201, 201, 0.7); */
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    opacity: 0.8;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(206, 201, 201, 0.7);
+    border-radius: 8px;
+
+    min-width: 80%;
+    background-color: white;
+}
+
+.projectDiv:hover {
+    border-bottom: 1px solid rgba(206, 201, 201, 0.9);
+    background-color: #F9F9F9;
+}
+
+
+.projectInfoName {
+    display: flex;
+    width: 75%;
+    /* opacity: 0.8; */
+    /* font-size: 14px; */
+}
+
+.projectName {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 8px;
+    color: #05386b;
+    opacity: 0.8;
+
+}
+
+.projectInfoLastUsed {
+    display: flex;
+    width: 25%;
+
+    opacity: 0.8;
+    font-size: 14px;
+
+    /* justify-content: end; */
+}
+
+.lastUsed {
+    font-family: 'Mukta', sans-serif;
+    /* font-weight: 700; */
+    font-size: 12px;
+    margin: 8px;
+    color: #05386b;
+}
+
+.mainTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 320px;
+}
+
+.noTask {
+    width: 120px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.noTaskImg {
+    width: 60%;
+    height: 100%;
+}
+
+.noTaskText {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: #5C5C5C;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.upperTaskTxt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.lowerTaskTxt {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}

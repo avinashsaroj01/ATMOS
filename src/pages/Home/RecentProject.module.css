@@ -1,0 +1,260 @@
+.listUsedProject {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid;
+    transition: 0.3s;
+    margin: 15px 35px 15px 35px;
+    border: 1px solid rgba(206, 201, 201, 0.7);
+    /* border-color: #7DE5ED; */
+
+    /* flex-wrap: wrap; */
+
+    height: 50vh;
+    width: 40vw;
+    /* width: 35vw; */
+    /* min-width: 30vw; */
+    /* height: 80%; */
+    /* min-height: 80%; */
+    /* height: fit-content; */
+    /* padding-bottom: 10px; */
+    /* width: 40%; */
+    /* height: 350px; */
+    color: #05386b;
+    background-color: #ebeff3;
+}
+
+.listUsedProject:hover {
+    border: 1px solid #7DE5ED;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.recentHeaddiv {
+    display: flex;
+    border-bottom: 1px solid rgba(206, 201, 201, 0.7);
+
+
+
+    width: 100%;
+    color: #05386b;
+}
+
+.projectHead {
+    margin: 8px;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    max-width: 50%;
+    color: #05386b;
+}
+
+.recentListdiv {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.recentParticularProject {
+    display: flex;
+    /* flex-direction: row; */
+    border-radius: 4px;
+    margin: 5px 10px 0px 10px;
+    /* padding: 10px; */
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.recentParticularProject a {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.projectDiv {
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    /* justify-content: center; */
+    /* margin: 5px 10px 0px 10px; */
+    /* padding: 10px; */
+    /* border-bottom: 1px solid rgba(206, 201, 201, 0.7); */
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    opacity: 0.8;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(206, 201, 201, 0.7);
+    border-radius: 8px;
+
+    min-width: 80%;
+    background-color: white;
+}
+
+.projectDiv:hover {
+    border-bottom: 1px solid rgba(206, 201, 201, 0.9);
+    background-color: #F9F9F9;
+}
+
+.projectInfoName {
+    display: flex;
+    width: 75%;
+    /* opacity: 0.8; */
+    /* font-size: 14px; */
+}
+
+.projectName {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 8px;
+    color: #05386b;
+    opacity: 0.8;
+
+}
+
+.projectInfoLastUsed {
+    display: flex;
+    width: 25%;
+
+    opacity: 0.8;
+    font-size: 14px;
+
+    /* justify-content: end; */
+}
+
+.lastUsed {
+    font-family: 'Mukta', sans-serif;
+    /* font-weight: 700; */
+    font-size: 12px;
+    margin: 8px;
+    color: #05386b;
+}
+
+
+/* .particularProjectName {
+    margin: 0px;
+    margin: 5px 10px 0px 10px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(206, 201, 201, 0.7);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0.8;
+    font-size: 14px;
+    display: flex;
+
+
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.particularProjectName:hover {
+    border-bottom: 1px solid rgba(206, 201, 201, 0.9);
+    background-color: #F9F9F9;
+}
+
+.lastUsedTime {
+    font-family: 'Hind Siliguri', sans-serif;
+     min-width: 23vw;
+width: 25%;
+
+color: #05386b;
+}
+
+.lastUsedName {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0.8;
+    font-size: 14px;
+    width: 75%;
+
+    color: #05386b;
+} */
+
+.projectsCategory {
+    color: #8D8D91;
+    font-weight: 600;
+    font-family: 'Mukta', sans-serif;
+    font-size: 12px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding: 1px;
+
+    color: #05386b;
+    background-color: #ebeff3;
+}
+
+.projectsCategory:hover {
+    outline: none;
+    background-color: #ebeff3;
+    /* background-color: #F5F5F5; */
+}
+
+.projectsCategory:focus {
+    outline: none;
+}
+
+
+.projectsCategoryOption {
+    color: #5C5C5C;
+    font-family: 'Mukta', sans-serif;
+    border: none;
+    /* border-radius: 4px; */
+    font-weight: 500;
+
+    color: #05386b;
+}
+
+.projectsCategoryOption:hover {
+    background-color: white;
+    border-radius: 0;
+}
+
+.mainFavorite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 320px;
+}
+
+.noFavorite {
+    width: 150px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.noFavoriteImg {
+    width: 60%;
+    height: 100%;
+}
+
+.noFavoriteImgRecent {
+    width: 50%;
+    height: 100%;
+}
+
+.noFavoriteTxt {
+    width: 200px;
+    color: #5C5C5C;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.upperFavoriteTxt {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.lowerFavoriteTxt {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+

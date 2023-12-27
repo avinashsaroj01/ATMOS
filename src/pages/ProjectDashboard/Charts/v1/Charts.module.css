@@ -1,0 +1,84 @@
+.mainView {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px 20px 40px 20px;
+    /* border: 1px solid; */
+    /* border-radius: 1px; */
+    /* overflow-x: auto; */
+    /* min-height: 76vh; */
+    width: 100%;
+    padding: 20px;
+
+    /* background-color: #8ee4af; */
+    /* background-color: #05386b; */
+    /* background-color: #5CDB95; */
+    /* background-color: #f8fafb; */
+
+    background-color: #f5f5f5;
+}
+
+.chartArena {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    min-width: fit-content;
+    width: 40vw;
+    border: 1px solid black;
+    padding: 10px;
+    border: 2px solid;
+    border-color: rgba(111, 111, 111, 0.2);
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 5px 5px 5px;
+
+    /* background-color: #5cdb95; */
+    background-color: #ebeff3;
+
+}
+
+.arenaHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* background-color: rgba(215, 208, 208, 0.2); */
+    border-radius: 5px 5px 5px 5px;
+
+    background-color: inherit;
+}
+
+.arenaHeading h3 {
+    color: #05386b;
+    background-color: inherit;
+}
+
+.statusArenaBody {
+    display: flex;
+    flex-direction: row;
+    /* width: 250px; */
+    /* height: 250px; */
+    border-radius: 8px;
+    padding: 10px;
+
+    /* background-color: #edf5e1; */
+    background-color: #ebeff3;
+}
+
+
+
+.arenaBody {
+    display: flex;
+    flex-direction: row;
+    /* width: 250px; */
+    /* height: 250px; */
+    border-radius: 8px;
+    padding: 10px;
+
+    /* background-color: #edf5e1; */
+    background-color: white;
+}
+
+.sectionWiseArena {
+    width: 100%;
+}

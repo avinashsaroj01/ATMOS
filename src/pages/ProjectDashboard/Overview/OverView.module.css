@@ -1,0 +1,334 @@
+.overviewMainView {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* background-color: rgb(234, 234, 241); */
+    /* max-height: max-content; */
+    /* max-height: max-content; */
+    padding: 20px 20px;
+    width: 100vw;
+    /* width: 98.5vw; */
+    /* margin: 20px; */
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+
+    /* background-color: #05386b; */
+    /* background-color: #9fedd7; */
+    /* background-color: rgb(234, 234, 241); */
+    /* background-color: #5CDB95; */
+
+    /* background-color: #8ee4af; */
+    /* background-color: #efeeef; */
+
+
+    /* background-color: #f5f5f5; */
+    background-color: #f8f9fa;
+
+}
+
+.descriptionArena {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border: 2px solid;
+    border-color: rgba(111, 111, 111, 0.2);
+    border-radius: 5px;
+
+
+
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    height: max-content;
+    width: 72vw;
+
+    /* background-color: #9fedd7; */
+    /* background-color: white; */
+    /* background-color: #f8fafb; */
+    /* background-color: inherit; */
+
+    /* background-color: #5cdb95; */
+    /* background-color: #d3d0d3; */
+    background-color: #ebeff3;
+
+
+}
+
+.descriptionArenaHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* background-color: rgba(215, 208, 208, 0.2); */
+    border-radius: 5px 5px 5px 5px;
+
+
+    background-color: inherit;
+}
+
+.descriptionArenaHeading h3 {
+    color: #05386b;
+
+    background-color: inherit;
+}
+
+.descriptionArenaDescription {
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: inherit;
+
+
+
+}
+
+.projectNameLabel {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    opacity: 0.7;
+
+
+
+    background-color: inherit;
+}
+
+.projectNameInput {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin-bottom: 25px;
+
+    background-color: inherit;
+
+}
+
+
+.teamMembersArena {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: max-content;
+    border: 2px solid;
+    border-color: rgba(111, 111, 111, 0.2);
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0 5px 5px;
+    min-width: 300px;
+    background-color: #ebeff3;
+
+
+}
+
+/* .teamMembersArena:hover {
+    border: 1px solid rgba(206, 201, 201, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0);
+    transition: box-shadow 10s ease-in-out;
+} */
+
+
+.teamMembersHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+
+    background-color: inherit;
+}
+
+.teamMembersHeading h3 {
+    color: #05386b;
+    background-color: inherit;
+}
+
+.teamMembersList {
+    display: flex;
+    flex-direction: column;
+    background-color: inherit;
+    height: '70px';
+    overflow-y: auto;
+
+}
+
+.addMemberDiv {
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    border-color: rgba(111, 111, 111, 0.2);
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+    margin: 5px 0;
+    background-color: rgba(248, 248, 249, 255);
+    /* box-shadow: 0 5px 10px rgba(0,0,0,.1); */
+
+    /* background-color: #eaf7d6; */
+    /* background-color: #d3f4a2; */
+    background-color: rgb(65, 129, 217);
+
+}
+
+.addMemberDiv:hover {
+    border: 2px solid rgba(206, 201, 201, 0.9);
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.addMemberImg {
+    width: 20px;
+
+    background-color: inherit;
+}
+
+.para {
+    color: white;
+    margin-bottom: 0;
+    font-size: 15px;
+    background-color: inherit;
+}
+
+
+
+.projectSettings {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 75vw;
+    border: 1px solid black;
+    padding: 10px;
+    border: 2px solid;
+    border-color: rgb(187, 0, 0);
+    border-radius: 5px;
+    /* padding: 10px 5px 10px 5px; */
+    margin: 5px 0 5px 0;
+
+    background-color: #ebeff3;
+    /* background-color: #5cdb95; */
+}
+
+.projectSettingHeading {
+
+    background-color: inherit;
+}
+
+.projectSettingHeading h3 {
+    color: #05386b;
+    background-color: inherit;
+}
+
+.projectSettingList {
+
+    background-color: inherit;
+}
+
+.settingCard {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(206, 201, 201, 0.7);
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    align-items: center;
+
+    /* background-color: #edf5e1; */
+    /* background-color: #d3f4a2; */
+    background-color: white;
+
+}
+
+.settingInfoDiv {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    min-width: 75%;
+
+    background-color: inherit;
+}
+
+.settingInfoDiv p {
+    margin-bottom: 0;
+    color: #05386b;
+    background-color: inherit;
+}
+
+.projectSettingInfoHead {
+
+    background-color: inherit;
+}
+
+
+
+.projectSettingInfoHead p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    opacity: 1;
+    color: black;
+    margin-bottom: 0;
+    color: #05386b;
+    background-color: inherit;
+}
+
+.projectSettingInfoBody {
+
+    background-color: inherit;
+}
+
+.projectSettingInfoBody p {
+    font-size: 14px;
+
+    background-color: inherit;
+}
+
+.settingBtnDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    min-width: 25%;
+    max-width: 25%;
+    width: 100%;
+    margin-right: 0;
+    /* padding: 10px; */
+
+    background-color: inherit;
+
+}
+
+.settingBtn {
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    /* font-weight: bold; */
+    font-size: smaller;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    /* background-color: #eaf7d6; */
+    background-color: rgb(65, 129, 217);
+}
+
+.modalBody {
+    display: flex !important;
+    flex-direction: row !important;
+    min-width: max-content !important;
+}
+
+.modalStyle {
+    min-width: max-content !important;
+    max-width: none !important;
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modalStyle>div>div {
+
+    min-width: 120% !important;
+}

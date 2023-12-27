@@ -1,0 +1,175 @@
+.countContainer {
+    display: flex;
+    flex-direction: column;
+   
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    /* min-width: fit-co; */
+    /* background-color: #5CDB95; */
+    /* background-color: rgb(38, 36, 36); */
+    /* color: #EDF5E1 !important; */
+    /* color: white !important; */
+    /* box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2); */
+    box-shadow: 1px 1px 1px 1px black;
+
+
+    /* background-color: white; */
+    /* background-color: #edf5e1; */
+    /* background-color: #ebeff3; */
+    background-color: white;
+
+}
+
+.profileCard:hover {
+    background-color: #f5f8fb;
+
+}
+
+.countContainer:hover {
+    /* background-color: #05386B !important; */
+    /* color: white !important; */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: background-color 5s ease-in-out;
+     border: 1px solid #000000;
+    /* background-color: #5CDB95; */
+    /* transform: rotateX(20deg); */
+    /* box-shadow: 0px -2vw 4vw -2vw rgba(35, 2, 2, 0.68), inset 0px -8vw 12vw -5vw rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8); */
+
+    /* background-color: #d3f4a2; */
+    background-color: rgb(65, 129, 217);
+}
+
+.countContainer:hover .containerHead {
+    color: white;
+
+    background-color: rgb(65, 129, 217);
+    /* background-color: #d3f4a2; */
+}
+
+.countContainer:hover .headText {
+    color: white;
+
+    background-color: rgb(65, 129, 217);
+    /* background-color: #d3f4a2; */
+}
+
+.countContainer:hover .containerBody {
+    color: white;
+
+    background-color: rgb(65, 129, 217);
+    /* background-color: #d3f4a2; */
+
+}
+
+.countContainer:hover .containerBody p {
+    color: white;
+
+    background-color: rgb(65, 129, 217);
+    /* background-color: #d3f4a2; */
+
+}
+
+.countContainer:hover .containerFoot {
+    color: white;
+
+    background-color: rgb(65, 129, 217);
+    /* background-color: #d3f4a2; */
+
+}
+
+.countContainer:hover .containerFoot p {
+    color: white;
+
+    background-color: rgb(65, 129, 217);
+    /* background-color: #d3f4a2; */
+
+}
+
+.countContainer:hover .containerFoot p span {
+    font-weight: 900;
+    color: white;
+
+    background-color: rgb(65, 129, 217);
+    /* background-color: #d3f4a2; */
+
+}
+
+
+
+
+
+.containerHead {
+    display: flex;
+    flex-direction: row;
+
+    /* background-color: white; */
+    background-color: inherit;
+}
+
+.headIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(111, 111, 111, 0.2);
+
+
+
+}
+
+.headText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 0.8rem;
+
+    background-color: inherit;
+    /* color: white !important; */
+}
+
+.containerBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 2rem;
+
+    background-color: inherit;
+}
+
+.containerFoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bolder; */
+    font-size: 0.8rem;
+    opacity: 1;
+    /* font-weight: 10; */
+    /* color: white !important; */
+
+    background-color: inherit;
+}
+
+.para {
+    margin-bottom: 0;
+
+    background-color: inherit;
+}
+
+.containerFoot p span {
+    font-weight: 700;
+
+    background-color: inherit;
+}

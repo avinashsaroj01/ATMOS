@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+.h1-text {
+  font-size: 1.3rem;
+  margin: 40px 0;
+  color: #2c2c2c;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-text i {
+  background-color: #509bfc;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  box-shadow: 2px 5px 30px rgba(80, 123, 252, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  margin: 0 20px;
+}
+
+.containerAboutUs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.boxAboutUs {
+  position: relative;
+  min-width: 250px;
+  max-width: 250px;
+  max-height: 250px;
+  background-color: #fff;
+  box-shadow: 2px 3px 30px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.top-barAboutUs {
+  width: 50%;
+  height: 4px;
+  background: #507bfc;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.topAboutUs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+
+
+
+.contentAboutUs img {
+  width: 90px;
+  height: 90px;
+  border-radius: 100px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: top;
+}
+
+.contentAboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentAboutUs strong {
+  font-weight: 500;
+  color: #141414;
+  margin-top: 10px;
+}
+
+.contentAboutUs p {
+  font-size: 0.9rem;
+  color: #7a7a7a;
+  margin: 4px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.contentAboutUs p:hover {
+  text-decoration: underline;
+}
+
+.btnAboutUs {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* align-content: space-around; */
+}
+
+.btnAboutUs a i {
+  margin-right: 9px;
+}
+
+.btnAboutUs a {
+  border-radius: 20px;
+  color: #8b8b8b;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+}
+
+.btnAboutUs a:hover {
+  color: #fff;
+  box-shadow: 2px 5px 15px rgba(80, 123, 252, 0.05);
+  background-color: #f5f5f5;
+  /* background-color: #507bfc; */
+  transition: all ease 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+.aboutus-section {
+  padding: 90px 0;
+}
+
+.aboutus-title {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin: 0 0 39px;
+  padding: 0 0 11px;
+  position: relative;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.aboutus-title::after {
+  background: #507bfc none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 54px;
+}
+
+.aboutus-text {
+  color: #606060;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0 0 35px;
+}
+
+/* a:hover,
+a:active {
+  color: #ffb901;
+  text-decoration: none;
+  outline: 0;
+} */
+
+.aboutus-more {
+  border: 1px solid #507bfc;
+  border-radius: 25px;
+  color: #507bfc;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+
+
+
+
+.team-section {
+  padding: 90px 90px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+
+}
+
+.img4 {
+  width: 40vw;
+  height: 40vh;
+}
+
+.aboutUsMainView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.aboutus-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftPartAboutUS {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px 10px 30px;
+  padding: 20px 50px 20px 50px;
+}
+
+.rightPartAboutUS {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 30px 10px 30px;
+  padding: 20px 50px 20px 50px;
+}
+
+.aboutUsDiv {}

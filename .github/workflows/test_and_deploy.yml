@@ -1,0 +1,47 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+
+name: Test and Deploy
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v3 # was "v2" before 
+        with: 
+          fetch-depth: 0
+
+      - name: Use Node.JS ${{ matrix.node-version }}
+        uses: actions/setup-node@v3 # was "v2" before
+        with: 
+          node-version: ${{ matrix.node-version }}
+  
+      - name: NPM install, build and test
+        run: |
+          npm install
+          npm run 
+          npm test
+
+  deploy:
+    name: Deploy
+    needs: [test] # Our tests must pass in order to run the deploy job
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Deploy to production
+        run: curl -X POST -d {} ${{ secrets.NETLIFY_API_KEY }}    #deployed to NETLIFY
+
+      
+      

@@ -1,0 +1,44 @@
+
+.btn-signUp {
+    background-color: #05386B;
+    border: 1px solid;
+    color: #B4DFE5;
+}
+
+/* CSS */
+.button24 {
+    width: 100%;
+  background: #37517e;
+  border: 1px solid #37517e;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  /* font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif; */
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 16px;
+  min-height: 49px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button24:hover,
+.button24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #37517e;
+}
+
+.button24:active {
+  opacity: .7;
+}
