@@ -5,7 +5,7 @@
 ## Frontend
 
 ### Installation and Setup Instructions
-- Clone the repo `git clone https://github.com/kasliwalshreyas/ATMOS-react.git`
+- Clone the repo `git clone https://github.com/avinashsaroj01/ATMOS.git`
 - Install the dependencies using `npm install`
 - To start the app, run `npm start` in the root directory.
 - App will be running on port 3000 by default.
@@ -27,7 +27,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### Installation and Setup Instructions
 
-- Clone the repository using `git clone https://github.com/kasliwalshreyas/ATMOS-Backend.git`
+- Clone the repository using `git clone https://github.com/avinashsaroj01/ATMOS.git`
 - Install the dependencies using `npm install`
 - To start the server, run `npm start` in the root directory.
 - Server will be running on port 4000 by default.
@@ -44,7 +44,7 @@ FRONTEND_URL=http://localhost:3000
 
 ## Socket Server
 
-- Clone the repository using `git clone https://github.com/kasliwalshreyas/wbdFinal.git`
+- Clone the repository using `git clone https://github.com/avinashsaroj01/ATMOS.git`
 - Install the dependencies using `npm install`
 - To start the server, run `npm start` in the root directory.
 - Server will be running on port 8800 by default.
