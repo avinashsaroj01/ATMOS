@@ -2,7 +2,7 @@
 
 Please read and follow these guidelines carefully
 
-    Incase of any doubts, contact Shreyas Kasliwal, anytime 
+    Incase of any doubts, contact Avinash Saroj, anytime 
 
 
 # Regarding CSS
@@ -53,7 +53,7 @@ It is recommended to push your code regularly.
 
 
     Incase of merge conflict please handle it properly and carefully.
-    Or contact Shreyas Kasliwal
+    Or contact Avinash Saroj
     [I am avaiable all the time. Even at 4 AM]
 
 For reference
@@ -77,7 +77,7 @@ Use command below in another terminal to start json server for the project
 <hr>
 <hr>
 
-    Incase of any doubts, contact Shreyas Kasliwal, anytime 
+    Incase of any doubts, contact Avinash Saroj , anytime 
 
 <hr>
 <hr>
