@@ -3,6 +3,7 @@
 [https://master--stately-raindrop-e70d37.netlify.app/](https://master--stately-raindrop-e70d37.netlify.app/)
 
 ## Frontend
+![ATMOS Preview]()
 
 ### Installation and Setup Instructions
 - Clone the repo `git clone https://github.com/avinashsaroj01/ATMOS.git`
